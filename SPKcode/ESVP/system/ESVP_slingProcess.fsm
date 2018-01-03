@@ -1,0 +1,269 @@
+/*%FSM<COMPILE "D:\__INSTALLED_GAMES__\_STEAM_\steamapps\common\Arma 3 Tools\FSMEditor\scriptedFSM.cfg, ESVP_slingProcess">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"START",0,4346,-25.000000,-600.000000,75.000000,-550.000000,0.000000,"START"};
+item1[] = {"true",8,218,-25.000000,-525.000000,75.000000,-475.000000,0.000000,"true"};
+item2[] = {"PROCESS",2,250,-25.000000,-450.000000,75.000000,-400.000000,0.000000,"PROCESS"};
+item3[] = {"has_load",4,218,-150.000000,-300.000000,-50.000000,-250.000000,0.000000,"has" \n "load"};
+item4[] = {"loop",4,218,100.000000,-300.000000,200.000000,-250.000000,0.000000,"loop"};
+item5[] = {"check_object",2,250,-25.000000,-150.000000,75.000000,-100.000000,0.000000,"check" \n "object"};
+item6[] = {"leave__load_",4,218,-25.000000,-225.000000,75.000000,-175.000000,0.000000,"leave" \n "(load)"};
+item7[] = {"clean_object",2,250,-25.000000,-300.000000,75.000000,-250.000000,0.000000,"clean" \n "object"};
+item8[] = {"loop",4,218,-25.000000,-375.000000,75.000000,-325.000000,0.000000,"loop"};
+item9[] = {"killed",8,218,-25.000000,-75.000000,75.000000,-25.000000,0.000000,"killed"};
+item10[] = {"DEATH",1,250,-25.000000,0.000000,75.000000,50.000000,0.000000,"DEATH"};
+item11[] = {"",7,210,146.000000,-129.000000,154.000000,-120.999992,0.000000,""};
+item12[] = {"",7,210,-104.000023,-129.000000,-95.999992,-121.000000,0.000000,""};
+item13[] = {"",7,210,-103.999992,-429.000000,-96.000000,-421.000000,0.000000,""};
+item14[] = {"",7,210,146.000000,-429.000000,154.000000,-421.000000,0.000000,""};
+item15[] = {"",7,210,-179.000000,-429.000000,-171.000000,-421.000000,0.000000,""};
+item16[] = {"killed",8,218,-225.000000,0.000000,-125.000000,50.000000,0.000000,"killed"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,13};
+link3[] = {3,12};
+link4[] = {4,14};
+link5[] = {5,6};
+link6[] = {5,9};
+link7[] = {5,11};
+link8[] = {6,7};
+link9[] = {7,8};
+link10[] = {8,2};
+link11[] = {9,10};
+link12[] = {11,4};
+link13[] = {12,5};
+link14[] = {13,3};
+link15[] = {13,15};
+link16[] = {14,2};
+link17[] = {15,16};
+link18[] = {16,10};
+globals[] = {25.000000,1,0,0,0,640,480,1,45,6316128,1,-393.361908,441.762695,106.421509,-641.778687,1028,921,1};
+window[] = {2,-1,-1,-1,-1,942,175,1615,175,3,1046};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "ESVP_slingProcess";
+        class States
+        {
+                /*%FSM<STATE "START">*/
+                class START
+                {
+                        name = "START";
+                        itemno = ;
+                        init = /*%FSM<STATEINIT""">*/"if(isNil'ESVP_codeDone')then{ESVP_codeDone=false};" \n
+                         "if(getText(missionConfigFile >> 'CfgESVP' >> 'debug' >> '_debugLog') isEqualTo str(true))then[{" \n
+                         "	ESVP_fsmDebugMode=true;" \n
+                         "	diag_log text '(SPK-DEBUG) ESVP-FSM: ""loaded""'" \n
+                         "},{" \n
+                         "	ESVP_fsmDebugMode=false" \n
+                         "}];" \n
+                         "" \n
+                         "if(getText(missionConfigFile >> 'CfgESVP' >> 'options' >> '_useSlingMsg') isEqualTo str(true))then[{" \n
+                         "	ESVP_FSM_showMsg = compileFinal """ \n
+                         "		_noOwner = getText(missionConfigFile >> 'CfgESVP' >> 'messages' >> 'info' >> '_slingMsgOwnr');" \n
+                         "		_noStealing = getText(missionConfigFile >> 'CfgESVP' >> 'messages' >> 'info' >> '_slingMsgSteal');" \n
+                         "		if(_this)then[{" \n
+                         "			if(_noOwner isEqualType 'STRING')then{" \n
+                         "				[format['%1',_noOwner],5] call Epoch_message" \n
+                         "			}" \n
+                         "		},{" \n
+                         "			if(_noStealing isEqualType 'STRING')then{" \n
+                         "				[format['%1',_noStealing],5] call Epoch_message" \n
+                         "			}" \n
+                         "		}]" \n
+                         "	"";" \n
+                         "	ESVP_FSM_useSlingMsg = true" \n
+                         "},{" \n
+                         "	ESVP_FSM_useSlingMsg = false" \n
+                         "}];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "true">*/
+                                class true
+                                {
+                                        itemno = ;
+                                        priority = 0.000000;
+                                        to="PROCESS";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"ESVP_codeDone"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "PROCESS">*/
+                class PROCESS
+                {
+                        name = "PROCESS";
+                        itemno = ;
+                        init = /*%FSM<STATEINIT""">*/"//process" \n
+                         "if(ESVP_fsmDebugMode)then{diag_log text '(SPK-DEBUG) ESVP-FSM: ""process state""'};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "killed">*/
+                                class killed
+                                {
+                                        itemno = ;
+                                        priority = 0.000000;
+                                        to="DEATH";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!alive player"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "has_load">*/
+                                class has_load
+                                {
+                                        itemno = ;
+                                        priority = 0.000000;
+                                        to="check_object";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"isESVP && vehicle player isKindOf ""Air"" && (driver vehicle player == player) && !isNull(getSlingLoad vehicle player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "check_object">*/
+                class check_object
+                {
+                        name = "check_object";
+                        itemno = ;
+                        init = /*%FSM<STATEINIT""">*/"private['_veh','_slingObj','_slingVar','_owners'];" \n
+                         "_veh = vehicle player;" \n
+                         "_owners = _veh getVariable['vehOwners',nil];" \n
+                         "_slingObj = getSlingLoad _veh;" \n
+                         "if(velocity _slingObj isEqualTo [0,0,0])then[{" \n
+                         "	_slingVar = _slingObj getVariable['vehOwners',nil];" \n
+                         "	if(!isNil'_slingVar')then{" \n
+                         "		if((_owners select 0) != (_slingVar select 0))then{" \n
+                         "			{ropeDestroy _x}foreach ropes _veh;" \n
+                         "			if(ESVP_FSM_useSlingMsg)then{" \n
+                         "				true call ESVP_FSM_showMsg" \n
+                         "			};" \n
+                         "			if(ESVP_fsmDebugMode)then{" \n
+                         "				diag_log text '(SPK-DEBUG) ESVP-FSM: ""check object"" | _slingVar exists but UID != _slingVar select 0, rope should be destroyed. OK!'" \n
+                         "			}" \n
+                         "		}" \n
+                         "	}else{" \n
+                         "		if(isNil'_slingVar')then{" \n
+                         "			{ropeDestroy _x}foreach ropes _veh;" \n
+                         "			if(ESVP_FSM_useSlingMsg)then{" \n
+                         "				false call ESVP_FSM_showMsg" \n
+                         "			};" \n
+                         "			if(ESVP_fsmDebugMode)then{" \n
+                         "				diag_log text '(SPK-DEBUG) ESVP-FSM: ""check object"" | _slingVar is nil, rope should be destroyed. OK!'" \n
+                         "			}" \n
+                         "		}" \n
+                         "	}" \n
+                         "},{" \n
+                         "	_slingVar = _slingObj getVariable['vehOwners',nil];" \n
+                         "	if(isNil'_slingVar')then{" \n
+                         "		_slingObj addEventHandler['Fired',{deleteVehicle (_this select 6)}];" \n
+                         "		_slingObj addEventHandler['HandleDamage',{false}];" \n
+                         "		_slingObj setVariable['vehOwners',[getPlayerUID driver _veh],true];" \n
+                         "		if(ESVP_fsmDebugMode)then{" \n
+                         "			diag_log text format['(SPK-DEBUG) ESVP-FSM: ""check object"" | joined a safezone, _slingVar: %1 | OK!',_slingObj getVariable['vehOwners',nil]]" \n
+                         "		}" \n
+                         "	}else{" \n
+                         "		if(ESVP_fsmDebugMode)then{" \n
+                         "			diag_log text format['(SPK-DEBUG) ESVP-FSM: ""check object"" | ERROR: _slingVar should be ""nil"": %1',_slingObj getVariable['vehOwners',nil]]" \n
+                         "		}" \n
+                         "	}" \n
+                         "}];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "killed">*/
+                                class killed
+                                {
+                                        itemno = ;
+                                        priority = 0.000000;
+                                        to="DEATH";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!alive player"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "loop">*/
+                                class loop
+                                {
+                                        itemno = ;
+                                        priority = 0.000000;
+                                        to="PROCESS";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"((isESVP && (vehicle player == player))||(!isESVP && (vehicle player == player)))||(!isESVP && vehicle player isKindOf ""Air"" && isNull(getSlingLoad vehicle player))||(isESVP && vehicle player isKindOf ""Air"" && isNull(getSlingLoad vehicle player))"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "leave__load_">*/
+                                class leave__load_
+                                {
+                                        itemno = ;
+                                        priority = 0.000000;
+                                        to="clean_object";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!isESVP && vehicle player isKindOf ""Air"" && !isNull(getSlingLoad vehicle player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "clean_object">*/
+                class clean_object
+                {
+                        name = "clean_object";
+                        itemno = ;
+                        init = /*%FSM<STATEINIT""">*/"_slingObj = getSlingLoad vehicle player;" \n
+                         "_slingObj removeAllEventHandlers 'Fired';" \n
+                         "_slingObj removeAllEventHandlers 'HandleDamage';" \n
+                         "private _var = _slingObj getVariable['vehOwners',nil];" \n
+                         "if(!isNil'_var')then{_slingObj setVariable['vehOwners',nil,true]};" \n
+                         "if(ESVP_fsmDebugMode)then{" \n
+                         "	diag_log text format[ '(SPK-DEBUG) ESVP-FSM: ""clean object"" | _slingObj: %1 | _var: %2 | _slingObj owners: %3'," \n
+                         "		_slingObj,if(isNil'_var')then{nil}else{_var},_slingObj getVariable['vehOwners',nil]" \n
+                         "	]" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "loop">*/
+                                class loop
+                                {
+                                        itemno = ;
+                                        priority = 0.000000;
+                                        to="PROCESS";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "DEATH">*/
+                class DEATH
+                {
+                        name = "DEATH";
+                        itemno = ;
+                        init = /*%FSM<STATEINIT""">*/"ESVP_codeDone = false;" \n
+                         "if(ESVP_fsmDebugMode)then{diag_log text '(SPK-DEBUG) ESVP: FSM ""DEATH state (player is dead)""'};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="START";
+        finalStates[] =
+        {
+                "DEATH",
+        };
+};
+/*%FSM</COMPILE>*/
