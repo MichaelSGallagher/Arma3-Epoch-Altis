@@ -25,8 +25,8 @@ class CfgEpochClient
 	geigerCounterEnergyUsage = 10; // default loss of 10 energy every 10sec of use
 	radiationEffectsThreshold = 10; // default level for screen effects to indicate a player's rad dosage (0-100)
 
-    baseHungerLoss = 2; // increase number to speed up rate of Hunger loss
-    baseThirstLoss = 2; // increase number to speed up rate of Thirst loss
+    baseHungerLoss = 0.2; // increase number to speed up rate of Hunger loss
+    baseThirstLoss = 0.5; // increase number to speed up rate of Thirst loss
 	accelerateHTALoss = "false"; // use server's time acceleration to increase the rate of Hunger, Thirst and Alcohol loss
 
     buildingNearbyMilitary = 0; //1 to allow building nearby
@@ -42,7 +42,7 @@ class CfgEpochClient
     maxBuildingHeight = 100;		// Max Height, building is allowed.
     buildingCountLimit = 200;		//overall building limit in range of jammer (overridden if "useGroupCountLimits=1")
     storageCountLimit = 100;		//overall storage limit in range of jammer (triggers only if "splitCountLimits=1" & "useGroupCountLimits=0")
-    splitCountLimits = 0;			//1 = distinguish buildingCountLimit from storageCountLimit (ex.: buildingCountLimit=100, storageCountLimit=100 >> you can build 100 baseparts AND additional 100 storage objects like safes, lockboxes...)
+    splitCountLimits = 1;			//1 = distinguish buildingCountLimit from storageCountLimit (ex.: buildingCountLimit=100, storageCountLimit=100 >> you can build 100 baseparts AND additional 100 storage objects like safes, lockboxes...)
     useGroupCountLimits = 1;		//1 = enable leader and member counts (doesn´t affect "splitCountLimits")
     buildingCountLeader = 250;		//ignore if "useGroupCountLimits=0"
     buildingCountPerMember = 5;		//ignore if "useGroupCountLimits=0"
@@ -56,7 +56,6 @@ class CfgEpochClient
     epochMessageBackgroundCol[] = {0,0,0,0.2};  //Epoch_message background color (format: {R,G,B,A})
     epochMessageTextCol[] = {1,1,1,0.95};       //Epoch_message text color (format: {R,G,B,A})
                                                 //to use different colored messages in scripts, just call it this way: ["the message", 6, [[0,0,0,0.2],[1,1,1,0.95]]] call Epoch_message;
-
     EPOCH_news[] = {"Word is that Sappers have a new boss.","Dogs will often lure them monsters away.","My dog was blown up. I miss him.."};
     deathMorphClass[] = {"Epoch_Sapper_F","Epoch_SapperG_F","Epoch_SapperB_F","I_UAV_01_F","Epoch_Cloak_F"}; //Random selection of these classes when player morphs after death. Currently available: Epoch_Cloak_F, Epoch_SapperB_F, Epoch_Sapper_F, I_UAV_01_F
     niteLight[] = {0,1.88,22}; // 0 = disabled or 1 = enabled, Set ambient lighting at night: {Brightness of light,Height of light}. Default (Low Ambient): {1.88,22} | Twilight: {7.2,88} | Distant: {12.8,142}
@@ -188,7 +187,7 @@ class CfgEpochClient
 	Fav_enableFavoriteBar = "true";			// If disabled, players will not be able to use favorite bar
 	Fav_DropIfOverflow = "true";			// If enabled and inventory full, equipped weapon will be dropped on ground in favor for the new selected weapon, otherwise action will fail with message and weapon will not be equipped
 	Fav_FastWeaponSwitching = "false";		// If enabled, same slot weapons from favorites bar are equipped instantly, otherwise reload action is played (recommended for immersion)
-	Fav_BannedItems[] = {};				// Items that users are not allowed to pin
+	Fav_BannedItems[] = {""};				// Items that users are not allowed to pin
 
 	// Advanced Vehicle Repair
 	UseAdvancedVehicleRepair = "true";									// Switch On / Off Advanced Vehicle Repair (Does not effect SuppressedCraftingItems !)
