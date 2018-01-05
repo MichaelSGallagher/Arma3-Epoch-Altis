@@ -1,4 +1,5 @@
 // Epoch Survival Gamemode
+#include "epoch_config\sandbox_config.hpp"
 #include "addons\halv_spawn\Halv_defines.hpp"
 #include "addons\halv_spawn\spawndialog.hpp"
 #include "SPKcode\config.cpp"
@@ -12,4 +13,3 @@ class RscTitles
 	#include "addons\status_Bar\statusBar.hpp"
 
 	};
-#include "epoch_config\sandbox_config.hpp"
