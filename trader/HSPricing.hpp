@@ -22,7 +22,8 @@ class HSPricing
 	class ItemCables {price =10;};
 	class ItemTinBar {price = 1;};
 	class ItemTinBar10oz {price =10;};
-
+	class ItemCopperBar {price = 1;};
+	class ItemCopper10oz {price = 10;};
 	// Radios
 	class EpochRadio0 {price = 2;};
 	class EpochRadio1 {price = 4;};
@@ -34,19 +35,16 @@ class HSPricing
 	class EpochRadio7 {price = 16;};
 	class EpochRadio8 {price = 18;};
 	class EpochRadio9 {price = 20;};
-
 	class WhiskeyNoodle {price = 80;};
 	class ItemWatch {price = 2;};
 	class Binocular {price = 4;};
 	class NVG_EPOCH {price = 35;};
 	class acc_flashlight {price = 4;};
 	class acc_pointer_IR {price = 5;};
-
 	class srifle_EBR_F {price = 150;};
 	class srifle_GM6_F {price = 150;};
 	class srifle_LRR_F {price = 200;};
 	class srifle_DMR_01_F {price = 200;};
-
 	class 20Rnd_762x51_Mag {price = 4; tax = 0.9;};
 	class 5Rnd_127x108_Mag {price = 3; tax = 0.9;};
 	class 5Rnd_127x108_APDS_Mag {price = 6; tax = 0.9;};
@@ -56,7 +54,6 @@ class HSPricing
 	class 130Rnd_338_Mag{ price = 2; tax = 0.9; };
 	class 10Rnd_93x64_DMR_05_Mag { price = 2; tax = 0.9; };
 	class 10Rnd_127x54_Mag { price = 2; tax = 0.9; };
-
 	// Paint
 	class PaintCanClear {price = 1;};
 	class PaintCanBlk {price = 1;};
@@ -68,7 +65,6 @@ class HSPricing
 	class PaintCanRed {price = 1;};
 	class PaintCanTeal {price = 1;};
 	class PaintCanYel {price = 1;};
-
 	class ItemDocument {price = 5;};
 	class ItemDocumentMission {price = 5;};
 	class ItemMixOil {price = 5;};
@@ -81,7 +77,6 @@ class HSPricing
 	class ItemRope { price = 5; };
 	class ItemStick { price = 1; };
 	class ItemRock { price = 1; };
-
 	// Food
 	class FoodBioMeat {price = 1;};
 	class FoodMeeps {price = 50;};
@@ -98,7 +93,6 @@ class HSPricing
 	class ItemTrout {price = 1;};
 	class ItemSeaBass {price = 5;};
 	class ItemTuna {price = 10;};
-
 	// Drinks
 	class FoodWalkNSons {price = 5;};
 	class ItemSodaOrangeSherbet {price = 4;};
@@ -106,13 +100,11 @@ class HSPricing
 	class ItemSodaMocha {price = 8;};
 	class ItemSodaBurst {price = 4;};
 	class ItemSodaRbull {price = 5;};
-
 	// Medical
 	class FAK {price = 3;};
 	class Towelette {price = 1;};
 	class HeatPack {price = 2;};
 	class ColdPack {price = 2;};
-
 	class sr25_epoch { price = 50; };
 	class l85a2_epoch { price = 50; };
 	class l85a2_pink_epoch { price = 50; };
@@ -142,7 +134,6 @@ class HSPricing
 	class arifle_MX_Black_F {price = 50;};
 	class arifle_MXC_Black_F {price = 50;};
 	class Rollins_F {price = 50;};
-
 	class 30Rnd_65x39_caseless_green {price = 3; tax = 0.9;};
 	class 30Rnd_65x39_caseless_green_mag_Tracer {price = 4; tax = 0.9;};
 	class 30Rnd_65x39_caseless_mag {price = 3; tax = 0.9;};
@@ -155,7 +146,6 @@ class HSPricing
 	class 30Rnd_45ACP_Mag_SMG_01 {price = 2; tax = 0.9;};
 	class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green {price = 3; tax = 0.9;};
 	class 5Rnd_rollins_mag {price = 2; tax = 0.9;};
-
 	class UGL_FlareWhite_F {price = 2;};
 	class UGL_FlareGreen_F {price = 2;};
 	class UGL_FlareRed_F {price = 2;};
@@ -181,12 +171,10 @@ class HSPricing
 	class 3Rnd_SmokePurple_Grenade_shell {price = 3;};
 	class 3Rnd_SmokeBlue_Grenade_shell {price = 3;};
 	class 3Rnd_SmokeOrange_Grenade_shell {price = 3;};
-
 	class LMG_Mk200_F {price = 150;};
 	class arifle_MX_SW_F {price = 150;};
 	class LMG_Zafir_F {price = 150;};
 	class arifle_MX_SW_Black_F {price = 150;};
-
 	// DLC sniper rifles
 	class srifle_DMR_02_F { price = 150; };
 	class srifle_DMR_02_camo_F { price = 150; };
@@ -209,7 +197,6 @@ class HSPricing
 	class MMG_02_camo_F { price = 150; };
 	class MMG_02_black_F { price = 150; };
 	class MMG_02_sand_F { price = 150; };
-
 	// new weapons
 	class m249_EPOCH {price = 150;};
 	class m249Tan_EPOCH {price = 150;};
@@ -221,14 +208,12 @@ class HSPricing
 	class M14Grn_EPOCH {price = 150;};
 	class m4a3_EPOCH {price = 100;};
 	class AKM_EPOCH {price = 100;};
-
 	// new magazines kiory
 	class 30rnd_556_magazine{ price = 5; tax = 0.9; };
 	class 20rnd_762_magazine{ price = 5; tax = 0.9; };
 	// new magazines seq
 	class 30Rnd_762x39_Mag {price = 5; tax = 0.9;};
 	class 200Rnd_556x45_M249 {price = 5; tax = 0.9;};
-
 	class 200Rnd_65x39_cased_Box {price = 5; tax = 0.9;};
 	class 100Rnd_65x39_caseless_mag {price = 3; tax = 0.9;};
 	class 200Rnd_65x39_cased_Box_Tracer {price = 5; tax = 0.9;};
@@ -236,7 +221,6 @@ class HSPricing
 	class 150Rnd_762x54_Box {price = 4; tax = 0.9;};
 	class 150Rnd_762x54_Box_Tracer {price = 5; tax = 0.9;};
 	class 150Rnd_93x64_Mag{ price = 6; tax = 0.9; };
-
 	class Rangefinder {price = 4;};
 	class Laserdesignator {price = 4;};
 	class hgun_ACPC2_F {price = 5;};
@@ -250,12 +234,10 @@ class HSPricing
 	class Hatchet {price = 25;};
 	class MultiGun {price = 100;};
 	class MeleeSledge {price = 50;};
-
 	class CrudeHatchet { price = 5; };
 	class MeleeMaul { price = 10; };
 	class WoodClub { price = 5; };
 	class Plunger { price = 15; };
-
 	class 16Rnd_9x21_Mag {price = 2; tax = 0.9;};
 	class 30Rnd_9x21_Mag {price = 3; tax = 0.9;};
 	class 9Rnd_45ACP_Mag {price = 1; tax = 0.9;};
@@ -267,7 +249,6 @@ class HSPricing
 	class 6Rnd_RedSignal_F {price = 1; tax = 0.9;};
 	class EnergyPack {price = 3; tax = 0.9;};
 	class EnergyPackLg {price = 30; tax = 0.9;};
-
 	class optic_Arco {price = 3;};
 	class optic_Hamr {price = 3;};
 	class optic_Aco {price = 2;};
@@ -286,7 +267,6 @@ class HSPricing
 	class optic_Nightstalker {price = 10;};
 	class optic_tws {price = 5;};
 	class optic_tws_mg {price = 5;};
-
 	// DLC optics
 	class optic_AMS { price = 5; };
 	class optic_AMS_khk { price = 5; };
@@ -295,7 +275,6 @@ class HSPricing
 	class optic_KHS_hex { price = 5; };
 	class optic_KHS_old { price = 5; };
 	class optic_KHS_tan { price = 5; };
-
 	// DLC bipods
 	class bipod_01_F_snd { price = 15; };
 	class bipod_01_F_blk { price = 15; };
@@ -305,11 +284,9 @@ class HSPricing
 	class bipod_02_F_hex { price = 15; };
 	class bipod_03_F_blk { price = 15; };
 	class bipod_03_F_oli { price = 15; };
-
 	// Epoch
 	class Elcan_epoch { price = 5; };
 	class Elcan_reflex_epoch { price = 10; };
-
 	class muzzle_snds_H {price = 2;};
 	class muzzle_snds_L {price = 2;};
 	class muzzle_snds_M {price = 2;};
@@ -319,15 +296,12 @@ class HSPricing
 	class Heal_EPOCH {price = 3;};
 	class Defib_EPOCH {price = 5;};
 	class Repair_EPOCH {price = 2;};
-
 	// DLC muzzles
 	class muzzle_snds_338_black { price = 3; };
 	class muzzle_snds_338_green { price = 3; };
 	class muzzle_snds_93mmg { price = 3; };
 	class muzzle_snds_93mmg_tan { price = 3; };
-
 	class muzzle_sr25S_epoch { price = 2; };
-
 	class PartOreGold {price = 70;};
 	class PartOreSilver {price = 7;};
 	class PartOre {price = 1;};
@@ -345,7 +319,6 @@ class HSPricing
 	class ItemJade {price = 100;};
 	class ItemGarnet {price = 25;};
 	class ItemKiloHemp {price = 100;};
-
 	// Building resources
 	class PartPlankPack {price = 2;};
 	class CinderBlocks {price = 20;};
@@ -353,7 +326,6 @@ class HSPricing
 	class ItemScraps {price = 5;};
 	class ItemCorrugated {price = 25;};
 	class ItemCorrugatedLg {price = 75;};
-
 	// Building parts
 	class KitStudWall {price = 10;};
 	class KitWoodFloor {price = 10;};
@@ -366,11 +338,9 @@ class HSPricing
 	class KitFoundation {price = 90;};
 	class KitPlotPole {price = 300;};
 	class KitCinderWall {price = 140;};
-
 	class honey_epoch {price = 5;};
 	class Pelt_EPOCH {price = 1;};
 	class Venom_EPOCH {price = 10;};
-
 	class HandGrenade_Stone {price = 1;};
 	class SmokeShell {price = 2;};
 	class SmokeShellYellow {price = 2;};
@@ -383,7 +353,6 @@ class HSPricing
 	class Chemlight_red {price = 1;};
 	class Chemlight_yellow {price = 1;};
 	class Chemlight_blue {price = 1;};
-
 	class HandGrenade {price = 15;};
 	class MiniGrenade {price = 10;};
 	class DemoCharge_Remote_Mag {price = 40;};
@@ -394,8 +363,6 @@ class HSPricing
 	class APERSBoundingMine_Range_Mag {price = 50;};
 	class SLAMDirectionalMine_Wire_Mag {price = 40;};
 	class APERSTripMine_Wire_Mag {price = 30;};
-
-
 	class B_AssaultPack_cbr {price = 10;};
 	class B_AssaultPack_dgtl {price = 10;};
 	class B_AssaultPack_khk {price = 10;};
@@ -429,12 +396,10 @@ class HSPricing
 	class smallbackpack_green_epoch {price = 10;};
 	class smallbackpack_teal_epoch {price = 10;};
 	class smallbackpack_pink_epoch {price = 10;};
-
 	// Marksman DLC
 	class U_O_FullGhillie_lsh { price = 7; };
 	class U_O_FullGhillie_sard { price = 7; };
 	class U_O_FullGhillie_ard { price = 7; };
-
 	class U_O_CombatUniform_ocamo {price = 5;};
 	class U_O_GhillieSuit {price = 5;};
 	class U_O_PilotCoveralls {price = 5;};
@@ -446,7 +411,6 @@ class HSPricing
 	class U_OG_Guerilla3_1 {price = 5;};
 	class U_OG_Guerilla3_2 {price = 5;};
 	class U_OG_leader {price = 5;};
-
 	class U_C_Poloshirt_stripped {price = 4;};
 	class U_C_Poloshirt_blue {price = 4;};
 	class U_C_Poloshirt_burgundy {price = 4;};
@@ -470,7 +434,6 @@ class HSPricing
 	class U_CamoBlue_uniform {price = 5;};
 	class U_CamoBrn_uniform {price = 5;};
 	class U_CamoRed_uniform {price = 5;};
-
 	class U_C_Driver_1 {price = 5;};
 	class U_C_Driver_2 {price = 5;};
 	class U_C_Driver_3 {price = 5;};
@@ -482,7 +445,6 @@ class HSPricing
 	class U_C_Driver_1_white {price = 5;};
 	class U_C_Driver_1_yellow {price = 5;};
 	class U_C_Driver_1_orange {price = 5;};
-
 	class V_1_EPOCH {price = 5;};
 	class V_2_EPOCH {price = 5;};
 	class V_3_EPOCH {price = 5;};
@@ -523,7 +485,6 @@ class HSPricing
 	class V_38_EPOCH {price = 5;};
 	class V_39_EPOCH {price = 5;};
 	class V_40_EPOCH {price = 5;};
-
 	class H_1_EPOCH {price = 3;};
 	class H_2_EPOCH {price = 3;};
 	class H_3_EPOCH {price = 3;};
@@ -630,7 +591,6 @@ class HSPricing
 	class H_104_EPOCH {price = 3;};
 	class wolf_mask_epoch {price = 30;};
 	class pkin_mask_epoch {price = 30;};
-
 	class C_Offroad_01_EPOCH {price = 750;};
 	class C_Quadbike_01_EPOCH {price = 500;};
 	class C_Hatchback_01_EPOCH {price = 750;};
@@ -660,13 +620,11 @@ class HSPricing
 	class O_Heli_Light_02_unarmed_EPOCH {price = 2500;};
 	class I_Heli_Transport_02_EPOCH {price = 2500;};
 	class I_Heli_light_03_unarmed_EPOCH {price = 2500;};
-
 	class O_Heli_Transport_04_EPOCH {price = 2500;};
 	class O_Heli_Transport_04_bench_EPOCH {price = 2500;};
 	class O_Heli_Transport_04_box_EPOCH {price = 2500;};
 	class O_Heli_Transport_04_covered_EPOCH {price = 2500;};
 	class B_Heli_Transport_03_unarmed_EPOCH {price = 2500;};
-
 	class jetski_epoch {price = 500;};
 	class ebike_epoch {price = 1500;};
 	class mosquito_epoch { price = 1500; };
@@ -699,7 +657,6 @@ class HSPricing
 	class O_MRAP_02_gmg_F {price = 5000;};
 	class B_Heli_Transport_03_F {price = 2500;tax = 0.5;};
 	class B_Heli_Transport_03_black_F {price = 2500;tax = 0.5;};
-
 	class G_Diving {price = 10;};
 	class G_Combat {price = 10;};
 	class G_Tactical_Clear {price = 5;};
@@ -719,13 +676,10 @@ class HSPricing
 	class G_Sport_Checkered {price = 5;};
 	class G_Sport_Red {price = 5;};
 	class G_Tactical_Black {price = 5;};
-
 	//Mission Items
 	class B_UavTerminal {price = 10;};
 	class O_UavTerminal {price = 10;};
-
 	//MAS SHIT FROM HERE DOWN
-
 	//Helis
 	class B_mas_CH_47F {price = 5000;};
 	class B_mas_UH1Y_F {price = 5000;};
@@ -740,7 +694,6 @@ class HSPricing
 	/*class O_mas_MI8 {price = 5000;};
 	class O_mas_MI8MTV {price = 5000;};
 	class O_mas_MI24V {price = 5000;};*/
-
 	//Tanks
 	class I_mas_T72_AAF_01 {price = 30000;};
 	class I_mas_T72B_Early_AAF_01 {price = 30000;};
@@ -755,7 +708,6 @@ class HSPricing
 	class O_mas_T72BM_OPF_01 {price = 30000;};
 	class O_mas_T55_OPF_01 {price = 30000;};
 	class O_mas_ZSU_OPF_01 {price = 30000;};*/
-
 	//BMP
 	class I_mas_BMP1_AAF_01 {price = 5000;};
 	class I_mas_BMP1P_AAF_01 {price = 5000;};
@@ -767,14 +719,11 @@ class HSPricing
 	class O_mas_BMP2_OPF_01 {price = 5000;};
 	class O_mas_BMP2_HQ_OPF_01 {price = 5000;};
 	class O_mas_BMP2_Ambul_01 {price = 5000;};*/
-
 	//BRDM/BTR
 	class I_mas_BRDM2 {price = 5000;};
 	class I_mas_BTR60 {price = 5000;};
 	//class O_mas_BRDM2 {price = 5000;};
 	//class O_mas_BTR60 {price = 5000;};
-
-
 	//UAZ
 	class I_mas_cars_UAZ_MG {price = 5000;};
 	class I_mas_cars_UAZ_AGS30 {price = 5000;};
@@ -787,7 +736,6 @@ class HSPricing
 	class O_mas_cars_UAZ_SPG9 {price = 5000;};
 	class O_mas_cars_UAZ_Unarmed {price = 5000;};
 	class O_mas_cars_UAZ_Med {price = 5000;};*/
-
 	//Land Rovers
 	class B_mas_cars_LR_Unarmed {price = 5000;};
 	class B_mas_cars_LR_Med {price = 5000;};
@@ -801,7 +749,6 @@ class HSPricing
 	class I_mas_cars_LR_soft_Mk19 {price = 5000;};
 	class I_mas_cars_LR_soft_TOW {price = 5000;};
 	class I_mas_cars_LR_soft_SPG9 {price = 5000;};*/
-
 	//Hilux
 	class B_mas_cars_Hilux_MG {price = 5000;};
 	class B_mas_cars_Hilux_AGS30 {price = 5000;};
@@ -810,7 +757,6 @@ class HSPricing
 	class B_mas_cars_Hilux_Unarmed {price = 5000;};
 	class B_mas_cars_Hilux_Med {price = 5000;};
 	class B_mas_cars_Hilux_M2 {price = 5000;};
-
 	//HMMWVs - Woodland
 	class B_mas_HMMWV_M2 {price = 5000;};
 	class B_mas_HMMWV_M134 {price = 5000;};
@@ -820,7 +766,6 @@ class HSPricing
 	class B_mas_HMMWV_MK19 {price = 5000;};
 	class B_mas_HMMWV_UNA {price = 5000;};
 	class B_mas_HMMWV_MEV {price = 5000;};
-
 	//HMMWVs - Tan
 	class B_mas_HMMWV_M2_des {price = 5000;};
 	class B_mas_HMMWV_M134_des {price = 5000;};
@@ -830,7 +775,6 @@ class HSPricing
 	class B_mas_HMMWV_MK19_des{price = 5000;};
 	class B_mas_HMMWV_UNA_des {price = 5000;};
 	class B_mas_HMMWV_MEV_des {price = 5000;};
-
 	//Backpacks - Bergen
 	class B_mas_Bergen_mul   {price = 300;};
 	class B_mas_Bergen_des   {price = 300;};
@@ -840,7 +784,6 @@ class HSPricing
 	class O_mas_Bergen_flo   {price = 300;};
 	class O_mas_Bergen_blk   {price = 300;};
 	class O_mas_Bergen_rtan  {price = 300;};
-
 	//Other Backpacks
 	/*
 	B_mas_AssaultPack_mul
@@ -941,15 +884,10 @@ class HSPricing
 	O_mas_AssaultPack_rtan_Repair
 	O_mas_Bergen_rtan_Exp
 	*/
-
-
-
 	//WEAPONS
-
 	//Launchers - AA
 	class mas_launch_Stinger_F {price = 1500;};
 	class mas_launch_Strela_F {price = 1500;};
-
 	//Launchers - AT
 	class mas_launch_maaws_F {price = 1500;};
 	class mas_launch_smaw_F {price = 1500;};
@@ -960,7 +898,6 @@ class HSPricing
 	class mas_launch_RPG7_F {price = 1500;};
 	class mas_launch_RPG18_F {price = 1500;};
 	class mas_launch_Metis_F {price = 1500;};
-
 	//Launcher ammo
 	class mas_Stinger {price = 450;};
 	class mas_Strela {price = 450;};
@@ -986,7 +923,6 @@ class HSPricing
 	class mas_Metis_HE {price = 450;};
 	class Sting_mas_AA_F {price = 450;};
 	class RPG32_mas_AA_F {price = 450;};
-
 	//HK416:
 	class arifle_mas_hk416	     	 { price = 20; };
 	class arifle_mas_hk416_gl	  	 { price = 22; };
@@ -1003,7 +939,6 @@ class HSPricing
 	class arifle_mas_hk416_m203c_v   { price = 44; };
 	class arifle_mas_hk416c_d  	 	 { price = 46; };
 	class arifle_mas_hk416_m203c_d   { price = 48; };
-
  	//HK417 - M203 CQB:
 	class arifle_mas_hk417c	         { price = 22; };
 	class arifle_mas_hk417_m203c	 { price = 24; };
@@ -1014,7 +949,6 @@ class HSPricing
 	class arifle_mas_hk417_m203c_v	 { price = 28; };
 	class arifle_mas_hk417c_d	     { price = 30; };
 	class arifle_mas_hk417_m203c_d	 { price = 32; };
-
 	//M4A1:
 	class arifle_mas_m4	         { price = 20; };
 	class arifle_mas_m4_gl	     { price = 22; };
@@ -1030,11 +964,9 @@ class HSPricing
 	class arifle_mas_m4c_v	     { price = 42; };
 	class arifle_mas_m4_m203c_v	 { price = 44; };
 	class arifle_mas_m4c_d	     { price = 46; };
-
 	//M16:
 	class arifle_mas_m16	 { price = 22; };
 	class arifle_mas_m16_gl	 { price = 24; };
-
  	//L119A1:
 	class arifle_mas_l119 	     { price = 20; };
 	class arifle_mas_l119_gl 	 { price = 22; };
@@ -1045,261 +977,198 @@ class HSPricing
 	class arifle_mas_l119_d 	 { price = 32; };
 	class arifle_mas_l119_gl_d	 { price = 34; };
 	class arifle_mas_l119_m203_d { price = 36; };
-
 	class arifle_mas_l119c		{ price = 150; };
 	class arifle_mas_l119c_v	{ price = 150; };
 	class arifle_mas_l119c_d  	{ price = 150; };
-
 	//SCAR-L and SCAR-LS (Short barrel):
 	class arifle_mas_mk16 	     { price = 22; };
 	class arifle_mas_mk16_gl 	 { price = 24; };
 	class arifle_mas_mk16_l 	 { price = 26; };
 	class arifle_mas_mk16_l_gl 	 { price = 28; };
-
 	//SCAR-H:
 	class arifle_mas_mk17 	     { price = 24; };
 	class arifle_mas_mk17_gl 	 { price = 26; };
-
 	//G3 RIFLES:
 	class arifle_mas_g3 	     { price = 32; };
 	class arifle_mas_g3_m203 	 { price = 34; };
 	class arifle_mas_g3s 	     { price = 36; };
 	class arifle_mas_g3s_m203 	 { price = 38; };
-
 	//FN FAL RIFLES:
 	class arifle_mas_fal 	 { price = 34; };
 	class arifle_mas_fal_m203 	 { price = 36; };
-
 	//M1014 BENELLI:
 	class arifle_mas_m1014	 { price = 5; };
-
 	//HK417\SR25\EBR\SCAR-H \MK17S\M110:
 	class srifle_mas_hk417 	 { price = 26; };
 	class srifle_mas_hk417_v { price = 28; };
 	class srifle_mas_hk417_d { price = 30; };
-
 	//SR25:
 	class srifle_mas_sr25 	 { price = 26; };
 	class srifle_mas_sr25_v  { price = 28; };
 	class srifle_mas_sr25_d  { price = 30; };
-
 	//EBR:
 	class srifle_mas_ebr 	 { price = 26; };
-
 	//MK17:
 	class srifle_mas_mk17s 	 { price = 26; };
-
 	//M110:
 	class srifle_mas_m110 	 { price = 180; };
-
 	//M107:
 	class srifle_mas_m107 	 { price = 180; };
 	class srifle_mas_m107_v  { price = 180; };
 	class srifle_mas_m107_d  { price = 180; };
-
 	//M24:
 	class srifle_mas_m24 	 { price = 30; };
 	class srifle_mas_m24_v 	 { price = 32; };
 	class srifle_mas_m24_d 	 { price = 34; };
-
 	//MP5:
 	class arifle_mas_mp5 	 { price = 15; };
 	class arifle_mas_mp5_v 	 { price = 23; };
 	class arifle_mas_mp5_d 	 { price = 31; };
 	class arifle_mas_mp5sd 	 { price = 39; };
-
 	//M249:
 	class LMG_mas_M249_F 	 { price = 50; };
 	class LMG_mas_M249_F_v 	 { price = 75; };
 	class LMG_mas_M249_F_d 	 { price = 100; };
 	class LMG_mas_M249a_F 	 { price = 125; };
-
 	//Mk200:
 	class LMG_mas_Mk200_F 	 { price = 100; };
-
 	//Mk48:
 	class LMG_mas_Mk48_F 	 { price = 78; };
 	class LMG_mas_Mk48_F_v 	 { price = 86; };
 	class LMG_mas_Mk48_F_d 	 { price = 94; };
 	//M240:
 	class LMG_mas_M240_F 	 { price = 80; };
-
 	//MG3:
 	class LMG_mas_mg3_F 	 { price = 100; };
-
 	//AK74M:
 	class arifle_mas_ak_74m 	 { price = 22; };
 	class arifle_mas_ak_74m_gl 	 { price = 24; };
 	class arifle_mas_ak_74m_c 	 { price = 26; };
 	class arifle_mas_ak_74m_gl_c { price = 28; };
-
 	//AKS74:
 	class arifle_mas_aks74 	 { price = 78; };
-
 	//AK74M\AK74M GL SF RAILS VERSION:
 	class arifle_mas_ak_74m_sf 	     { price = 26; };
 	class arifle_mas_ak_74m_sf_gl 	 { price = 28; };
 	class arifle_mas_ak_74m_sf_c 	 { price = 30; };
 	class arifle_mas_ak_74m_sf_gl_c  { price = 32; };
-
 	//AKM\AKMS:
 	class arifle_mas_akm 	     { price = 32; };
 	class arifle_mas_akms 	     { price = 36; };
 	class arifle_mas_akms_gl 	 { price = 38; };
 	class arifle_mas_akms_c 	 { price = 40; };
 	class arifle_mas_akms_gl_c 	 { price = 42; };
-
 	//BIZON:
 	class arifle_mas_bizon 	 { price = 32; };
-
 	//SAIGA 12:
 	class arifle_mas_saiga	 { price = 12; };
-
 	//ZASTAVA M70 SERIES RIFLES:
 	class arifle_mas_m70 	  { price = 96; };
 	class arifle_mas_m70_gl   { price = 128; };
 	class arifle_mas_m70ab 	  { price = 126; };
 	class arifle_mas_m70ab_gl { price = 168; };
-
 	//ZASTAVA M91 SNIPER RIFLE:
 	class srifle_mas_m91 	 { price = 168; };
-
 	//ZASTAVA M72 LMG:
 	class LMG_mas_m72_F	 { price = 200; };
-
 	//SVD:
 	class srifle_mas_svd 	 { price = 168; };
-
 	//KSVK:
 	class srifle_mas_ksvk 	  { price = 168; };
 	class srifle_mas_ksvk_c   { price = 180; };
-
 	//AK74U:
 	class arifle_mas_aks74u 	 { price = 28; };
 	class arifle_mas_aks74u_c 	 { price = 30; };
-
 	//RPK:
 	class LMG_mas_rpk_F 	 	 { price = 30; };
-
 	//PKM:
 	class LMG_mas_pkm_F 	 	 { price = 30; };
-
 	//MICRO UZI:
 	class hgun_mas_uzi_F 	 { price = 12; };
-
 	//SA61 SKORPION:
 	class hgun_mas_sa61_F 	 { price = 12; };
-
 	//9mm PISTOLS:
 	class hgun_mas_m9_F 	 { price = 5; };
 	class hgun_mas_bhp_F 	 { price = 10; };
 	class hgun_mas_glock_F 	 { price = 15; };
-
 	//45cal PISTOL:
 	class hgun_mas_acp_F 	 { price = 10; };
 	class hgun_mas_usp_F 	 { price = 20; };
 	class hgun_mas_usp_l_F 	 { price = 30; };
 	class hgun_mas_glocksf_F { price = 40; };
-
 	//MP-443 GRACH:
 	class hgun_mas_grach_F	 	 { price = 45; };
-
 	//MAKAROV:
 	class hgun_mas_mak_F 	 { price = 3; };
-
 	//MAGS: (HK417\SCAR-H\G3 RIFLES\SR25\EBR\MK17S\M110:)
 	class 20Rnd_mas_762x51_Stanag	 { price = 4; };
 	class 20Rnd_mas_762x51_T_Stanag	 { price = 4; };
-
 	//MAGS: (HK416\M4\M16\SCAR-L\SCAR-LS\L119A1\M29\MK200)
 	class 30Rnd_mas_556x45_Stanag	 { price = 4; };
 	class 30Rnd_mas_556x45_T_Stanag	 { price = 4; };
-
 	//MAGS: (M1014 BENELLI)
 	class 7Rnd_mas_12Gauge_Slug 	  { price = 4; };
 	class 7Rnd_mas_12Gauge_Pellets    { price = 5; };
-
 	//MAGS: (M107)
 	class 5Rnd_mas_127x99_Stanag 	  { price = 10; };
 	class 5Rnd_mas_127x99_dem_Stanag  { price = 20; };
 	class 5Rnd_mas_127x99_T_Stanag	  { price = 10; };
-
 	//MAGS: (M24)
 	class 5Rnd_mas_762x51_Stanag 	 { price = 5; };
 	class 5Rnd_mas_762x51_T_Stanag	 { price = 5; };
-
 	//MAGS: (MP5)
 	class 30Rnd_mas_9x21_Stanag 	 { price = 5; };
 	class 30Rnd_mas_9x21d_Stanag     { price = 5; };
-
 	//MAGS: (M249\Mk200)
 	class 200Rnd_mas_556x45_Stanag 	  { price = 5; };
 	class 200Rnd_mas_556x45_T_Stanag  { price = 5; };
-
-
 	//MAGS: (Mk48\M240\MG3\M60)
 	class 100Rnd_mas_762x51_Stanag 	 	 { price = 5; };
 	class 100Rnd_mas_762x51_T_Stanag 	 { price = 5; };
-
 	//MAGS: (AK74M-GL-SF\AK74S\AK74U\RPK)
 	class 30Rnd_mas_545x39_mag 	     { price = 6; };
 	class 30Rnd_mas_545x39_T_mag	 { price = 8; };
-
 	//MAGS: (AKM\AKMS\M70\M72:)
 	class 30Rnd_mas_762x39_mag 	     { price = 10; };
 	class 30Rnd_mas_762x39_T_mag	 { price = 15; };
-
 	//MAGS: (BIZON)
 	class 64Rnd_mas_9x18_mag	     { price = 10; };
-
 	//MAGS: (SAIGA 12:)
 	class 10Rnd_mas_12Gauge_Slug 	 { price = 6; };
 	class 10Rnd_mas_12Gauge_Pellets	 { price = 8; };
-
 	//MAGS: (M91 SNIPER\SVD)
 	class 10Rnd_mas_762x54_mag 	     { price = 10; };
 	class 10Rnd_mas_762x54_T_mag	 { price = 10; };
-
 	//MAGS: (M72)
 	class 100Rnd_mas_762x39_mag 	 { price = 5; };
 	class 100Rnd_mas_762x39_T_mag    { price = 5; };
-
 	//MAGS: (KSVK)
 	class 5Rnd_mas_127x108_mag 	 	 { price = 10; };
 	class 5Rnd_mas_127x108_dem_mag 	 { price = 20; };
 	class 5Rnd_mas_127x108_T_mag 	 { price = 10; };
-
 	//MAGS: (RPK)
 	class 100Rnd_mas_545x39_mag 	 { price = 5; };
 	class 100Rnd_mas_545x39_T_mag    { price = 5; };
-
 	//MAGS: (PKM)
 	class 100Rnd_mas_762x54_mag 	 { price = 5; };
 	class 100Rnd_mas_762x54_T_mag	 { price = 5; };
-
 	//MAGS: (MICRO UZI\MP-443 GRACH\9mm Pistols)
 	class 13Rnd_mas_9x19_Mag  { price = 6; };
 	class 15Rnd_mas_9x21_Mag  { price = 8; };
 	class 17Rnd_mas_9x21_Mag  { price = 12; };
 	class 25Rnd_mas_9x21_Mag  { price = 14; };
-
 	//MAGS: (SA61 SKORPION)
 	class 20Rnd_mas_765x17_Mag	 { price = 14; };
-
 	//MAGS: (45cal PISTOLS)
 	class 12Rnd_mas_45acp_Mag { price = 5; };
 	class 10Rnd_mas_45acp_Mag { price = 5; };
 	class 8Rnd_mas_45acp_Mag	 { price = 5; };
-
 	//MAGS: (Browning PISTOLS)
 	class 13Rnd_mas_9x21_Mag { price = 5; };
-
 	//MAGS: (MP-443 GRACH\MAKAROV)
 	class 8Rnd_mas_9x18_Mag	 { price = 4; };
-
 	// GRENADES
 	class 1Rnd_HE_Grenade_shell  { price = 4; };
-
 	//OPTICS AND SUPPRESSORS:
   //class muzzle_mas_snds_asval { price = 5; };     // disabled due to dupping issue
 	class muzzle_mas_snds_L 	 { price = 5; };
@@ -1348,9 +1217,7 @@ class HSPricing
 	class optic_mas_Aco_camo 	 { price = 5; };
 	class optic_mas_ACO_grn_camo 	 { price = 5; };
 	class optic_mas_MRCO_camo	 { price = 5; };
-
   //@MAS 1.5, 1.8 OPTICS AND SURPRESSORS
-
 	class muzzle_mas_snds_MP5SD6	{ price = 5; };
 	class muzzle_mas_snds_MP7		{ price = 5; };
 	class optic_mas_PSO_day			{ price = 3; };
@@ -1360,43 +1227,28 @@ class HSPricing
 	class optic_mas_goshawk	        { price = 150; };
 	class optic_mas_kobra	  		{ price = 3; };
 	class optic_mas_kobra_c	 		{ price = 3; };
-
   //@MAS 1.5 IR POINTERS
-
 	class acc_mas_pointer_IR		{ price = 5; };
 	class acc_mas_pointer_IR_top	{ price = 5; };
 	class acc_mas_pointer_IR2		{ price = 5; };
 	class acc_mas_pointer_IR2_top	{ price = 5; };
 	class acc_mas_pointer_IR2c		{ price = 5; };
 	class acc_mas_pointer_IR2c_top  { price = 5; };
-
   //@MAS 1.5 LLR AWM (Sniper)
-
 	class srifle_mas_lrr			{ price = 80; };
 	class 10Rnd_mas_338_Stanag		{ price = 5; };
 	class 10Rnd_mas_338_T_Stanag	{ price = 5; };
-
   //@MAS 1.5 G36
-
 	class arifle_mas_g36c			{ price = 80; };
-
   //@MAS 1.5 M60
-
 	class LMG_mas_M60_F				{ price = 80; };
-
   //@MAS 1.5 VSS Vintorez:
-
 	class srifle_mas_vss 			{ price = 80; };
-
   //@MAS 1.5 AS VAL:
-
 	class arifle_mas_asval			{ price = 80; };
-
 	class 30Rnd_mas_9x39_mag 		{ price = 5; };
 	class 20Rnd_mas_9x39_mag		{ price = 5; };
-
   //@MAS 1.5 BALACLAVA, WRAPS, GOOGLES, MASKS:
-
 	class G_mas_wpn_gog				{ price = 80; };
 	class G_mas_wpn_gog_d			{ price = 80; };
 	class G_mas_wpn_gog_m			{ price = 80; };
@@ -1437,24 +1289,15 @@ class HSPricing
 	class G_mas_wpn_shemag_w		{ price = 80; };
 	class G_mas_wpn_shemag_gog		{ price = 80; };
 	class G_mas_wpn_shemag_mask		{ price = 80; };
-
   //@MAS 1.5 NVG's (hide during day)
-
 	//class NVGoggles_mas_h			{ price = 35; };
 	class Rangefinder_mas_h			{ price = 4; };
 	class Laserdesignator_mas_h		{ price = 4; };
-
   //@MAS 1.5 MP7 HANDGUN
-
 	class hgun_mas_mp7_F			{ price = 80; };
-
 	class 40Rnd_mas_46x30_Mag		{ price = 80; };
-
   //@MAS 1.5 LEE ENFIELD:
-
 	class arifle_mas_lee			{ price = 80; };
-
   //@MAS 1.5 M14Grn_EPOCH
-
 	class arifle_mas_m14 { price = 80; };
 };
