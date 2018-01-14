@@ -4296,6 +4296,83 @@ class CfgPricing
     {
         price = 75;
     };
+    //NI Arms ACR
+	hlc_rifle_ACR68_Carb_black {price = 1000;};
+	hlc_rifle_ACR68_full_black {price = 1000;};
+	hlc_rifle_ACR68_MID_black {price = 1000;};
+	hlc_rifle_ACR_SBR_black	{price = 1000;};
+	hlc_rifle_ACR_Carb_black {price = 1000;};
+	hlc_rifle_ACR_MID_black	 {price = 1000;};
+	hlc_rifle_ACR_full_black {price = 1000;};
+	hlc_rifleACR_SBR_cliffhanger {price = 5000;};
+	// NI Arms AR15
+	hlc_rifle_RU556 {price = 500;};
+	hlc_rifle_RU5562 {price = 500;};
+	hlc_rifle_Colt727	{price = 500;};
+	hlc_rifle_Colt727_GL {price = 500;};
+	hlc_rifle_bcmjack {price = 500;};
+	hlc_rifle_Bushmaster300 {price = 500;};
+	hlc_rifle_vendimus {price = 500;};
+	hlc_rifle_SAMR {price = 500;};
+	// NI Arms AR15 Assesories
+	hlc_rifle_honeybase {price = 260;};
+	hlc_rifle_honeybadger {price = 250;};
+	hlc_muzzle_556NATO_KAC {price = 250;};
+	hlc_muzzle_300blk_KAC {price = 250;};
+	//NI Arms Pistols
+	hlc_pistol_P229R_40Elite {price = 100;};
+	hlc_pistol_P229R_40Enox {price = 100;};
+	hlc_pistol_P239 {price = 100;};     
+	hlc_pistol_P239_40 {price = 100;};
+	hlc_pistol_P239_357 {price = 100;};
+	hlc_pistol_P229R_40Combat {price = 150;};
+	hlc_pistol_P229R_40Elite {price = 150;};
+	hlc_Pistol_M11A1D {price = 200;};
+	hlc_Pistol_M11A1 {price = 200;};
+	hlc_pistol_P229R_Combat {price = 150;};
+	hlc_Pistol_mk25RX {price = 150;};
+    hlc_pistol_Mk25D {price = 150;};
+	hlc_pistol_Mk25 {price = 150;};
+	hlc_pistol_P226US {price = 150;};
+	hlc_pistol_P226R_357Stainless {price = 200;};
+	hlc_pistol_P226R_357Combat {price = 200;};
+	// NI Arms Ammo
+	hlc_30rnd_68x43_FMJ	{price = 100;};
+	hlc_30rnd_68x43_OTM {price = 100;};
+	hlc_30rnd_68x43_Tracer {price = 100;};
+	hlc_30rnd_68x43_IRDIM {price = 100;};
+	hlc_30rnd_68x43_MFMJ {price = 100;};
+	hlc_30rnd_68x43_MIRDIM {price =100;};
+	29rnd_300BLK_STANAG	 {price = 100;};
+	29rnd_300BLK_STANAG_T {price = 100;};
+	29rnd_300BLK_STANAG_S {price = 100;};
+	hlc_30rnd_556x45_EPR {price = 100;};
+	hlc_30rnd_556x45_SOST {price = 100;};
+	hlc_30rnd_556x45_SPR {price = 100;};
+	hlc_15Rnd_9x19_B_P226 {price = 50;};
+	hlc_15Rnd_9x19_JHP_P226 {price = 50;};
+	hlc_15Rnd_9x19_SD_P226 {price = 50;};
+	hlc_12Rnd_40SW_B_P226 {price = 50;};
+	hlc_12Rnd_40SW_JHP_P226 {price = 50;};
+	hlc_12Rnd_40SW_SD_P226 {price = 50;};
+	hlc_12Rnd_357SIG_B_P226 {price = 50;};
+	hlc_12Rnd_357SIG_JHP_P226 {price =50:};
+	hlc_13Rnd_9x19_B_P228 {price = 50;};
+	hlc_13Rnd_9x19_JHP_P228 {price = 50;};
+	hlc_13Rnd_9x19_SD_P228 {price = 50;};
+	hlc_10Rnd_40SW_B_P229 {price = 50;};
+	hlc_10Rnd_40SW_JHP_P229	{price = 50;};
+	hlc_10Rnd_40SW_SD_P229	{price = 50;};
+	hlc_10Rnd_357SIG_B_P229 {price = 50;};
+	hlc_10Rnd_357SIG_JHP_P229 {price = 50;};
+	hlc_10Rnd_9x19_B_P239	{price = 50;};
+	hlc_10Rnd_9x19_JHP_P239 {price = 50;};
+	hlc_10Rnd_9x19_SD_P239 {price = 50;};
+	hlc_8Rnd_40SW_B_P239 {price = 50;};
+	hlc_10Rnd_40sw_JHP_P239 {price = 50;};
+	hlc_10Rnd_40sw_SD_P239	{price = 50;};
+	hlc_8Rnd_357SIG_B_P239 {price = 50;};
+	hlc_8Rnd_357SIG_JHP_P239 {price =50;};
     ///////////////////////////////////////////////////////////////////////////////
     // Apex Items & Weapons
     ///////////////////////////////////////////////////////////////////////////////
