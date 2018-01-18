@@ -21,19 +21,30 @@ class EditorData
 binarizationWanted=0;
 addons[]=
 {
-	"A3_epoch_config",
+	"A3_Soft_F_Car",
+	"A3_Soft_F_Quadbike",
+	"a3_soft_f_beta_quadbike",
+	"A3_Boat_F_Civilian_Boat",
+	"A3_Boat_F_Boat_Transport_01",
+	"A3_Air_F_Heli_Light_01",
+	"A3_Air_F_Heli_Heli_Transport_04",
+	"A3_Air_F_Heli_Heli_Transport_03",
 	"a3_map_altis",
+	"a3_characters_f_gamma",
+	"A3_Characters_F_OPFOR",
+	"A3_Characters_F_INDEP",
+	"A3_Characters_F_Civil",
+	"A3_epoch_config",
 	"a3_characters_f",
+	"A3_Data_F_Curator_Virtual",
+	//mas weapons and vehicles
 	"mas_weapons_pack",
 	"mas_weapons",
 	"mas_weapons_ak",
 	"mas_weapons_nw",
 	"mas_weapons_m4",
-	"mas_uh1y",
-	"mas_hmmwv",
-	"mas_ch47",
-	"mas_mi8",
-	"mas_mi24",
+	"mas_uh1y","mas_hmmwv",
+	"mas_ch47","mas_mi8",
 	"mas_brdm",
 	"mas_uh60m",
 	"mas_cars_lr",
@@ -44,6 +55,13 @@ addons[]=
 	"mas_cars",
 	"mas_cars_hilux",
 	"mas_vehicleweapons_fia",
+	//asdg joint rails and more
+	"asdg_jointrails",
+	"asdg_jointrails_xtra",
+	"asdg_jointmuzzles",
+	"asdg_atlis_bipod",
+	"asdg_attachments_c",
+	//Cup Weapons and Vehicles
 	"CUP_BaseConfigs",
 	"CUP_BaseData",
 	"CUP_Weapons_AA12",
@@ -123,8 +141,7 @@ addons[]=
 	"CUP_Weapons_WeaponsCore",
 	"CUP_Weapons_WeaponsData",
 	"CUP_Weapons_West_Attachments",
-	"CUP_Weapons_XM8"
-	
+	"CUP_Weapons_XM8"	
 };
 randomSeed=12032465;
 class ScenarioData
