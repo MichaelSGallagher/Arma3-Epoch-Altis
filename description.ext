@@ -1,15 +1,15 @@
+//Main Game SandBox Settings
+#include "epoch_config\sandbox_config.hpp"
+#include "SPKcode\config.cpp"
 // Epoch Survival Gamemode
 #include "addons\halv_spawn\Halv_defines.hpp"
 #include "addons\halv_spawn\spawndialog.hpp"
-#include "SPKcode\config.cpp"
 //Black Market Traders
-#include "trader\tradedialog.hpp"
 #include "trader\HSPricing.hpp"
+#include "trader\tradedialog.hpp"
 //Status Bar
 class RscTitles
 	{
-
 	#include "addons\status_Bar\statusBar.hpp"
-
 	};
-#include "epoch_config\sandbox_config.hpp"
+	

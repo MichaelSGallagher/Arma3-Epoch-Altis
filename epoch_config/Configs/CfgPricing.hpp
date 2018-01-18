@@ -689,12 +689,22 @@ class CfgPricing
 	//Mission Items
 	class B_UavTerminal {price = 10;};
 	class O_UavTerminal {price = 10;};
-    //Added stuff
+	//Added stuff
 	class B_T_MBT_01_cannon_F {price = 10000;};
 	class B_T_MBT_01_TUSK_F {price = 10000;};
 	class B_T_MBT_01_arty_F {price = 10000;};
 	class B_MBT_01_mlrs_F {price = 10000;};
 	class O_MBT_02_cannon_F {price = 10000;};
+	//CUP Weapons Ammo Optics and stuff
+	class CUP_srifle_AS50 {price = 150;};
+	class CUP_srifle_AS50_AMPAS13c2 {price = 250;};
+	class CUP_srifle_AS50_SBPMII {price = 175;};
+	class CUP_5Rnd_127x99_as50_M {price = 50;};
+	class CUP_optic_AN_PAS_13c2 {price = 25;};
+	class CUP_optic_SB_3_12x50_PMII {price = 25;};
+	class CUP_optic_AN_PAS_13c1 {price = 25;};
+	class CUP_optic_LeupoldMk4_10x40_LRT_Desert {price = 50;};
+	class CUP_optic_LeupoldMk4_10x40_LRT_Woodland {price = 50;};
 	//MAS SHIT FROM HERE DOWN
 	//Helis
 	class B_mas_CH_47F {price = 5000;};

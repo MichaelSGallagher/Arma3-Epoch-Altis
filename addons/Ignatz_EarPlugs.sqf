@@ -5,7 +5,7 @@
 Ignatz_KB_Earplug			= 0x3E;		// F4
 Ignatz_AutoEarplugs			= true;		// Auto insert / remove Earplugs by entering leaving Vehicles
 Ignatz_EnableEarpluginVeh	= true;		// Set it to false to disable manual Earplugs in Vehicles
-Ignatz_AutoEarplugsHints	= false;	// Enable / Disable hint message on Auto-Earplugs
+Ignatz_AutoEarplugsHints	= true;	// Enable / Disable hint message on Auto-Earplugs
 Ignatz_EarplugsSystemchat	= true;		// Enable / Disable systemchat messages for Earplugs
 // End Config //
 

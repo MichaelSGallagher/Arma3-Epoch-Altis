@@ -1,25 +1,22 @@
 class CfgServicePoint {
 	class Altis {
 		ServicePoints[] =	{	// Array of coords for ServicePoints
-/*
-								{pos1},
-								{pos2}
-								OR
-								{
-									pos1,
-									dist1,
-									{VehType_1,VehType_1,...},
-									"MarkerText1"
+
+								{											// West Trader Hub
+									{6171.12,16825.8,0},					// Pos	
+									40,										// max distance
+									{"Landvehicle","Ship","Tank","AIR"},	// Vehicle Types for SP
+									"Service Point Land / Ship / Air"		// Marker Text (Leave it Blank to disable Marker)
 								},
 								{
-									pos2,
-									dist2,
-									{VehType,VehType,...},
-									"MarkerText2"
-								}
-*/
-								{								// Central
-									{13325,14477,0},						// Pos
+																			// East Trader Hub
+									{18428,14727.7,0},						// Pos	
+									40,										// max distance
+									{"Landvehicle","Ship","Tank","AIR"},	// Vehicle Types for SP
+									"Service Point Land / Ship / Air"		// Marker Text (Leave it Blank to disable Marker)
+								},
+								{											// Central
+									{13344.4,14560.1,0},					// Pos
 									40,										// max distance
 									{"Landvehicle","Ship","Tank","AIR"},	// Vehicle Types for SP
 									"Service Point Land / Ship / Air"		// Marker Text (Leave it Blank to disable Marker)

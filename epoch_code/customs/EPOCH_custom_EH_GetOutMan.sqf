@@ -14,3 +14,15 @@
 */
 params ["_unit","_position","_vehicle"];
 
+// Start Ignatz_Earplugs
+if (Ignatz_AutoEarplugs) then {
+	if (Ignatz_AutoEarplugsHints) then {
+		hint 'Earplugs have been auto-removed';
+	};
+	if (Ignatz_EarplugsSystemchat) then {
+		systemchat 'Earplugs have been auto-removed...';
+	};
+	Ignatz_Earplugsin = true;
+	[] call Ignatz_Client_Earplugger;
+};
+// End Ignatz_Earplugs

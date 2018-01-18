@@ -15,5 +15,22 @@
 params ["_display","_dikCode","_shift","_ctrl","_alt"];
 _handled = false;
 
+// Start Ignatz_Earplugs
+if (!isnil 'Ignatz_KB_Earplug') then {
+	if (_dikCode == Ignatz_KB_Earplug) then {
+		if (Ignatz_EnableEarpluginVeh || player == vehicle player) then {
+			if (Ignatz_EarplugsSystemchat) then {
+				if (Ignatz_Earplugsin) then {
+					systemchat 'Earplugs have been removed...';
+				}
+				else {
+					systemchat 'Earplugs have been inserted...';
+				};
+			};
+			[] call Ignatz_Client_Earplugger;
+		};
+	};
+};
+// End Ignatz_Earplugs
 
 _handled
