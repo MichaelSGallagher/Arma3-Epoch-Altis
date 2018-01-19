@@ -635,11 +635,9 @@ class HSPricing
 	class K03 {price = 300;};
 	class K04 {price = 300;};
 	class B_APC_Tracked_01_rcws_F {price = 5000;};
-	class B_APC_Tracked_01_CRV_F {price = 5000;};
 	class O_APC_Wheeled_02_rcws_F {price = 5000;};
 	class I_MRAP_03_hmg_F {price = 5000;};
 	class O_MRAP_02_hmg_F {price = 5000;};
-	class B_MRAP_01_hmg_F {price = 5000;};
 	class B_Heli_Light_01_armed_F {price = 2500;};
 	class B_Plane_CAS_01_F {price = 5000;};
 	class O_Plane_CAS_02_F {price = 5000;};
@@ -687,6 +685,36 @@ class HSPricing
 	class B_T_MBT_01_arty_F {price = 10000;};
 	class B_MBT_01_mlrs_F {price = 10000;};
 	class O_MBT_02_cannon_F {price = 10000;};
+	class B_Heli_Light_01_F {price = 2500;};
+	class B_Heli_Light_01_dynamicLoadout_F {price = 5000;};
+	class B_Heli_Attack_01_F {price = 3500;};
+	class B_Heli_Attack_01_dynamicLoadout_F {price = 5000;};
+	class B_Heli_Transport_01_camo_F {price = 2750;};
+	class B_MBT_01_cannon_F {price = 10000;};
+	class B_MBT_01_arty_F {price = 10000;};
+	class B_APC_Tracked_01_AA_F {price = 10000;};
+	class B_APC_Tracked_01_CRV_F {price = 10000;};
+	class B_MRAP_01_F {price = 1500;};
+	class B_MRAP_01_hmg_F {price = 1500;};
+	class B_G_Offroad_01_repair_F {price = 1000;};
+	class B_G_Offroad_01_F {price = 750;};
+	class B_Quadbike_01_F {price = 500;};
+	class B_G_Quadbike_01_F {price = 500;};
+	class B_G_Van_01_fuel_F {price = 1500;};
+	class B_G_Van_01_transport_F {price = 1000;};
+	class B_T_LSV_01_armed_F {price = 2500;};
+	class B_T_LSV_01_armed_CTRG_F {price = 3000;};
+	class B_GEN_Offroad_01_gen_F {price = 1500;};
+	class B_CTRG_Heli_Transport_01_sand_F {price = 10000;};
+	class B_CTRG_Heli_Transport_01_tropic_F {price = 10000;};
+	class B_T_APC_Wheeled_01_cannon_F {price = 7500;};
+	class O_Heli_Attack_02_dynamicLoadout_F {price = 10000;};
+	class O_Heli_Attack_02_black_F {price = 1000;};
+	class O_APC_Tracked_02_cannon_F {price = 10000;};
+	class O_MBT_02_arty_F {price = 10000;};
+	class O_G_Offroad_01_repair_F {price = 1500;};
+	class O_Truck_02_fuel_F {price = 2000;};
+	class O_G_Van_01_fuel_F {price = 1500;};
 	//CUP Weapons Ammo Optics and stuff
 	class CUP_srifle_AS50 {price = 150;};
 	class CUP_srifle_AS50_AMPAS13c2 {price = 250;};
@@ -1319,3 +1347,4 @@ class HSPricing
   //@MAS 1.5 M14Grn_EPOCH
 	class arifle_mas_m14 { price = 80;};
 };
+/*[[[end]]]*/

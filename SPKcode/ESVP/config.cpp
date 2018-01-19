@@ -48,11 +48,11 @@ class CfgESVP {
 	class messages {
 		class notes {															/* If (_showNotes=true) customise your notification messages below. (between the quotes "")											*/
 			_enter[] 		= {"EnterSZ",{"You entered a Safezone!"}};			/* first: template-name (has to be the same as defined in CfgNotifications) | second: text you want to show (for entering the SZ)	*/
-			_leave[] 		= {"LeaveSZ",{"You leave the Safezone!"}};			/* first: template-name (has to be the same as defined in CfgNotifications) | second: text you want to show (for leaving the SZ)	*/
+			_leave[] 		= {"LeaveSZ",{"You LEFT the Safezone!"}};			/* first: template-name (has to be the same as defined in CfgNotifications) | second: text you want to show (for leaving the SZ)	*/
 		};
 		class chat {
 			_chatMsgEnter 	= "[INFO] YOU ENTERED SAFEZONE:";					/* systemChat message for entering a safezone between the quotes ""	(name of safezone is automatically added)						*/
-			_chatMsgLeave 	= "[INFO] YOU LEAVED SAFEZONE:";					/* systemChat message for leaving a safezone between the quotes "" (name of safezone is automatically added)						*/
+			_chatMsgLeave 	= "[INFO] YOU LEFT SAFEZONE:";					/* systemChat message for leaving a safezone between the quotes "" (name of safezone is automatically added)						*/
 			_restDrvMsg		= "[INFO] DRIVER-SEAT IS RESTRICTED TO THE OWNER";	/* systemChat message while getting ejected from driver seat [only if _restrictDrv=true]											*/
 		};
 		class info {

@@ -10,7 +10,7 @@ class CfgServicePoint {
 								},
 								{
 																			// East Trader Hub
-									{18428,14727.7,0},						// Pos	
+									{18424,14271.1,0},						// Pos	
 									40,										// max distance
 									{"Landvehicle","Ship","Tank","AIR"},	// Vehicle Types for SP
 									"Service Point Land / Ship / Air"		// Marker Text (Leave it Blank to disable Marker)

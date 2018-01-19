@@ -12,7 +12,6 @@
 #define ST_PICTURE 48
 
 class SPK_RscListBox {
-	access = 0;
 	arrowEmpty = "#(argb,8,8,3)color(1,1,1,0.95)";
 	arrowFull = "#(argb,8,8,3)color(1,1,1,0.95)";
 	autoScrollDelay = 5;
@@ -78,7 +77,6 @@ class SPK_RscListBox {
 };
 
 class SPK_RscButton {
-   access = 0;
    borderSize = 0;
    colorBackground[] = {0,0,0,0.5};
    colorBackgroundActive[] = {0,0,0,1};
@@ -112,7 +110,6 @@ class SPK_RscButton {
 };
 
 class SPK_RscText {
-   access = 0;
    colorBackground[] = {0,0,0,0};
    colorShadow[] = {0,0,0,0.5};
    colorText[] = {1,1,1,0.95};
