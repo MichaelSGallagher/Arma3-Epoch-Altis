@@ -8,7 +8,7 @@
 */
 class CfgPricing
 {
-	class ChainSaw {price = 125;};
+		class ChainSaw {price = 125;};
 	class CircuitParts {price = 50;};
 	class ItemCoolerE {price = 50;};
 	class JackKit {price = 25;};
@@ -30,6 +30,19 @@ class CfgPricing
 	class ItemCables {price = 10;};
 	class ItemSolar {price = 25;};
 	class KitSolarGen {price = 100;};
+	class ItemBulb {price = 25;};
+	class ItemWaterPurificationTablets {price = 50;};
+	class ItemEmptyTin {price = 5;};
+	class ItemBurlap {price = 10;};
+	class KitFuelPump {price = 1500;};
+	class KitWatchTower {price = 2500;};
+	class KitScaffolding {price = 1500;};
+	class ItemCanvas {price = 150;};
+	class SmeltingTools_EPOCH {price = 500;};
+	class ItemCampingLight {price = 250;};
+	class ItemSeedBag {price = 100;};
+	class KitCinderTower {price = 2500;};
+	class KitWoodTower {price = 1500;};
 	// Radios
 	class EpochRadio0 {price = 2;};
 	class EpochRadio1 {price = 4;};
