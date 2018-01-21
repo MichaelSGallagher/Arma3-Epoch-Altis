@@ -5,8 +5,8 @@ private ["_folder","_servicePointClasses","_maxDistance","_costsFree","_message"
 
 //====================== general settings
 _folder = "addons\service_point\"; // folder where the service point scripts are saved, relative to the mission file
-_servicePointClasses = ["Land_CarService_F","Land_FuelStation_Build_F","Land_FuelStation_Feed_F","Land_fs_feed_F"]; // service point classes (can be house, vehicle and unit classes)
-_maxDistance = 10; // maximum distance from a service point for the options to be shown
+_servicePointClasses = ["Land_CarService_F","Land_FuelStation_Build_F","Land_FuelStation_Feed_F","Land_fs_feed_F","FuelPump","B_G_Van_01_fuel_F","O_Truck_02_fuel_F","O_G_Van_01_fuel_F","B_G_Offroad_01_repair_F"]; // service point classes (can be house, vehicle and unit classes)
+_maxDistance = 25; // maximum distance from a service point for the options to be shown
 _costsFree = "free"; // text for no costs
 _message = "-- Vehicle Service Point --"; // message to be shown when in range of a service point (set to "" to disable)
 _actionColour = "#0096ff"; //the colour of the scroll action Blue: "#0096ff"
@@ -34,9 +34,7 @@ _GlobalMagazineMAX = 6;
 //weapon classes disabled from re-arming
 _NoGoWeapCName = [
 	//irrelevant ones
-	"Horn","SmokeLauncher","MiniCarHorn","SportCarHorn","TruckHorn2","TruckHorn","BikeHorn","CarHorn","TruckHorn3"
 ];
-
 //magazine classnames not allowed to be rearmed
 _NoGoAmmoCName = [
 ];

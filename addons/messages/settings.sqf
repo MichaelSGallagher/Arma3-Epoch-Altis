@@ -10,16 +10,16 @@ _folder = "addons\messages\";
 //========================================
 _HALV_KillFeedsideChat		= false;	//note that sideChat only shows if more than one player is on the server (not that it matters much)
 _HALV_KillFeedglobalChat	= true;
-_HALV_KillFeedsystemChat	= false;
-_HALV_KillFeedtitleText		= false;
+_HALV_KillFeedsystemChat	= true;
+_HALV_KillFeedtitleText		= true;
 _HALV_KillFeedcutText		= true;
-_HALV_KillFeedhint			= false;
+_HALV_KillFeedhint			= true;
 _HALV_KillFeedhintSilent	= false;
 _HALV_KillFeeddynamictext	= true;
 //this is to allow killfeed for players killed by anything that is not a player (sometimes a player is apparently not a player, so i leave this as an option for now)
 _HALV_KillFeed_AI			= true;
 //=======================================
 
-_enablestudybody = true;
+_enablestudybody = false;
 
-_enableburybody = true;
+_enableburybody = false;
