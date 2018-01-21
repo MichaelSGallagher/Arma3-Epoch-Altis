@@ -55,12 +55,6 @@ addons[]=
 	"mas_cars",
 	"mas_cars_hilux",
 	"mas_vehicleweapons_fia",
-	//asdg joint rails and more
-	"asdg_jointrails",
-	"asdg_jointrails_xtra",
-	"asdg_jointmuzzles",
-	"asdg_atlis_bipod",
-	"asdg_attachments_c",
 	//Cup Weapons and Vehicles
 	"CUP_BaseConfigs",
 	"CUP_BaseData",

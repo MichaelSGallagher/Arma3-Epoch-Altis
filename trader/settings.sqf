@@ -9,7 +9,7 @@
 _blacklist = [""];
 
 //this is how vehicles spawn, 0 = player gets menu to decide, 1 = only allow saved vehicles, 2 = only allow rentals
-_vehiclespawnmode = 0;
+_vehiclespawnmode = 1;
 
 //restrict vehicle weaponry here
 _restrictedvehicles = [""];
@@ -28,4 +28,3 @@ _dontremove =
 	"240Rnd_CMFlare_Chaff_Magazine","120Rnd_CMFlare_Chaff_Magazine","60Rnd_CMFlare_Chaff_Magazine","240Rnd_CMFlareMagazine","120Rnd_CMFlareMagazine",
 	"60Rnd_CMFlareMagazine"
 ];
-

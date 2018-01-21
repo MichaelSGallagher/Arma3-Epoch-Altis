@@ -7,9 +7,11 @@
 //Black Market Traders
 #include "trader\HSPricing.hpp"
 #include "trader\tradedialog.hpp"
+//Virtual Garages
+#include "scarCODE\VGS\global.hpp"
+#include "scarCODE\VGS\main_VGS.hpp"
 //Status Bar
 class RscTitles
 	{
 	#include "addons\status_Bar\statusBar.hpp"
 	};
-	
