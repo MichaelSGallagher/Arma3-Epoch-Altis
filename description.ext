@@ -1,16 +1,21 @@
 //Main Game SandBox Settings
 #include "epoch_config\sandbox_config.hpp"
-#include "SPKcode\config.cpp"
-// Epoch Survival Gamemode
+//Halo Spawn
 #include "addons\halv_spawn\Halv_defines.hpp"
 #include "addons\halv_spawn\spawndialog.hpp"
-//Black Market Traders
-#include "trader\HSPricing.hpp"
-#include "trader\tradedialog.hpp"
-//Virtual Garages
-#include "scarCODE\VGS\global.hpp"
+
+//scarCode Mods
+#include "scarCODE\global.hpp"
 #include "scarCODE\VGS\main_VGS.hpp"
-//Status Bar
+
+//SafeZones SPKCode
+#include "SPKcode\config.cpp"
+
+//Black Market Traders
+#include "trader\tradedialog.hpp"
+#include "trader\HSPricing.hpp"
+
+//RscTiles Section
 class RscTitles
 	{
 	#include "addons\status_Bar\statusBar.hpp"

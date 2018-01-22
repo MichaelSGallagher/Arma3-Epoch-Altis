@@ -10,10 +10,10 @@
 _spawnNearJammer = true;
 //this is the area to search for jammers, reduce if you do not want players spawning on the edge of the map
 //Increas with care as it can increase load times with high numbers default: 10000
-_jamarea = 8000;
+_jamarea = 10000;
 
 //This will allow spawn near group leader, but group system in epoch is bugged
-_spawnNearGroup = false;
+_spawnNearGroup = true;
 
 //adds the default spawns locations
 _adddefaultspawns = true;

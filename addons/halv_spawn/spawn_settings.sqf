@@ -6,9 +6,9 @@
 */
 
 //UID's for lvl 1 spawn's
-_level1UIDs = [];
+_level1UIDs = ["76561197987495141"];
 //UID's for lvl 2 spawn's
-_level2UIDs = ["76561197987495141"];
+_level2UIDs = [];
 //this is to allow any lvl 2 to spawn on lvl 1, comment out to seperate the two
 _level1UIDs = _level1UIDs + _level2UIDs;
 
@@ -23,7 +23,7 @@ _jumpheight = 1250;
 _bodyCheckDist = -1;
 
 //execVM script (like credits) on spawn? "pathto\script\filename.sqf" or "" to disable
-_script = "";
+_script = "addons\halv_spawn\credits.sqf";
 
 //start screen 0 = start on select gear screen, anything else will start it on select map screen
 _halv_spawn_startmode = 1;
@@ -47,4 +47,4 @@ _addmap = true;
 //////////////////////////paintshop settings//////////////////////////
 //if you do not have the paintshop on your server, just set it to false below
 //if true adds paintshop colours on spawn, if below var is set correct as in your paintshop settings
-_addcolours = false;
+_addcolours = true;

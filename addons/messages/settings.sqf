@@ -13,13 +13,13 @@ _HALV_KillFeedglobalChat	= true;
 _HALV_KillFeedsystemChat	= true;
 _HALV_KillFeedtitleText		= true;
 _HALV_KillFeedcutText		= true;
-_HALV_KillFeedhint			= true;
+_HALV_KillFeedhint			= false;
 _HALV_KillFeedhintSilent	= false;
 _HALV_KillFeeddynamictext	= true;
 //this is to allow killfeed for players killed by anything that is not a player (sometimes a player is apparently not a player, so i leave this as an option for now)
 _HALV_KillFeed_AI			= true;
 //=======================================
 
-_enablestudybody = false;
+_enablestudybody = true;
 
-_enableburybody = false;
+_enableburybody = true;

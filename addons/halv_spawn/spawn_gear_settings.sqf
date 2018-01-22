@@ -13,9 +13,9 @@
 */
 
 //UID's for lvl 1 gear
-_level1UIDs = [];
+_level1UIDs = ["76561197987495141"];
 //UID's for lvl 2 gear
-_level2UIDs = ["76561197987495141"];
+_level2UIDs = [];
 //this is to allow lvl 2 to use any lvl 1 gear, comment out to seperate the two
 _level1UIDs = _level1UIDs + _level2UIDs;
 

@@ -73,7 +73,7 @@ class HALV_RscFrame
 
 class HALV_RscButton
 {
-
+	access = 0;
 	type = 1;
 	text = "";
 	colorText[] = {1,1,1,0.8};
@@ -105,6 +105,7 @@ class HALV_RscButton
 
 class HALV_RscListBox
 {
+	access = 0;
 	type = 5;
 	w = 0.4;
 	h = 0.4;
@@ -172,6 +173,7 @@ class HALV_RscCheckbox
 
 class HALV_RscStructuredText
 {
+	access = 0;
 	type = CT_STRUCTURED_TEXT;
 	idc = -1;
 	style = ST_LEFT;
@@ -558,7 +560,7 @@ class HALV_RscMapControl
 
 class HALV_CT_TREE
 {
-    // Control access (0 - ReadAndWrite, 1 - ReadAndCreate, 2 - ReadOnly, 3 - ReadOnlyVerified)
+	access = 0; // Control access (0 - ReadAndWrite, 1 - ReadAndCreate, 2 - ReadOnly, 3 - ReadOnlyVerified)
 	type = CT_TREE; // Type is 12
 	style = ST_LEFT; // Style
 	x = 0.35567 * safezoneW + safezoneX;
