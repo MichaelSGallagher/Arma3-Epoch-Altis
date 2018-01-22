@@ -31,30 +31,30 @@ if(isServer)then{
 	_pic1 = [
 //North wall
 //build this picture/texture? (true / false)
-		false,
+		true,
 //Change to your picture/path here
-		"custom\problemsolving.jpg"
+		"custom\smashflash.jpg"
 	];
 	_pic2 = [
 	//East wall
 //build this picture/texture? (true / false)
-		false,
+		true,
 //Change to your picture/path here
-		"custom\dkflag.jpg"
+		"custom\smashflash.jpg"
 	];
 	_pic3 = [
 	//South wall
 //build this picture/texture? (true / false)
-		false,
+		true,
 //Change to your picture/path here
-		"custom\loadscreen.jpg"
+		"custom\smashflash.jpg"
 	];
 	_pic4 = [
 	//West wall
 //build this picture/texture? (true / false)
-		false,
+		true,
 //Change to your picture/path here
-		"custom\dkflag.jpg"
+		"custom\smashflash.jpg"
 	];
 
 //==================================== Dont Touch anything below this point ====================================\\

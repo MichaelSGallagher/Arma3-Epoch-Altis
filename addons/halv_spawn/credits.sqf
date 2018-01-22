@@ -56,24 +56,10 @@ _alltext = [
 		]
 	],
 	[
-		"Awsome translations by:",
-		"#c77000", //orange rust
-		[
-			"alden",
-			"Matez31cz",
-			"Kerozen",
-			"Suppe",
-			"W4lly",
-			"Tophi",
-			"",
-			"And many others i forgot to mention ..."
-		]
-	],
-	[
 		"Server Restarts :",
 		"#ffff00", //Yellow
 		[
-			"6 Hour Schedule"," "," (not set times)"
+			"6 Hour Schedule"," ","00:00","12:00","GMT"
 			//"00:00","04:00","08:00","12:00","16:00","20:00","GMT + 1"
 		]
 	],
@@ -81,14 +67,7 @@ _alltext = [
 		"Support / Help / Donor Info:",
 		"#71C700", //green light
 		[
-			"All Found on","Halv's Blog"," ","halv.ddns.net"," ","or Ts3:"," ","halv.ddns.net:9995"
-		]
-	],
-	[
-		"Intro Song:",
-		"#322CE6", //Blue Dark
-		[
-			"Sick Bubblegum"," ","- by Rob Zombie -"
+			"All Found on","Clan forum on Gametracker"," ","https://www.gametracker.com/clan/SmashFlash/"," ","or Ts3:"," ",""
 		]
 	]
 ];

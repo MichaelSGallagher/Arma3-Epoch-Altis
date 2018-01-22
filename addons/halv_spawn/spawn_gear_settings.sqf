@@ -13,9 +13,9 @@
 */
 
 //UID's for lvl 1 gear
-_level1UIDs = ["76561197987495141"];
+_level1UIDs = [];
 //UID's for lvl 2 gear
-_level2UIDs = [];
+_level2UIDs = ["76561197987495141","76561197964122063"];
 //this is to allow lvl 2 to use any lvl 1 gear, comment out to seperate the two
 _level1UIDs = _level1UIDs + _level2UIDs;
 
@@ -33,7 +33,7 @@ _geararr = [
 //this is the array of primary weapons the player can choose from, this has to be "weapon" type items
 		[
 			"SMG_01_F","SMG_02_F","hgun_PDW2000_F","Rollins_F","speargun_epoch","m16_EPOCH","m16Red_EPOCH","AKM_EPOCH","sr25_epoch",
-			"l85a2_epoch","l85a2_pink_epoch","l85a2_ugl_epoch"
+			"l85a2_epoch","l85a2_pink_epoch","l85a2_ugl_epoch","CUP_srifle_AS50_AMPAS13c2"
 		],
 //this is how many magazines is added for primary weapon
 		3
@@ -62,7 +62,7 @@ _geararr = [
 			"SmokeShellGreen","SmokeShellRed","SmokeShell","lighter_epoch","ItemSodaRbull","meatballs_epoch","WhiskeyNoodle","ItemSodaOrangeSherbet","sweetcorn_epoch",
 			"scam_epoch","HeatPack","ColdPack","SheepCarcass_EPOCH","GoatCarcass_EPOCH","Pelt_EPOCH","ChickenCarcass_EPOCH","RabbitCarcass_EPOCH","Venom_EPOCH",
 			"SnakeCarcass_EPOCH","ItemKiloHemp","ItemScraps","ItemCoolerE","ItemSodaPurple","ItemSodaMocha","ItemSodaBurst","FoodWalkNSons","honey_epoch",
-			"emptyjar_epoch","FoodBioMeat","sardines_epoch","FoodSnooter","Towelette"
+			"emptyjar_epoch","FoodBioMeat","sardines_epoch","FoodSnooter","Towelette","CUP_5Rnd_127x99_as50_M"
 		],
 //this is how many "magazines" items the player is allowed to choose
 		4
