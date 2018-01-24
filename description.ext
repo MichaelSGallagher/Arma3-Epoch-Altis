@@ -1,8 +1,10 @@
-//Main Game SandBox Settings
-#include "epoch_config\sandbox_config.hpp"
 //Halo Spawn
 #include "addons\halv_spawn\Halv_defines.hpp"
 #include "addons\halv_spawn\spawndialog.hpp"
+
+//Black Market Traders
+#include "trader\tradedialog.hpp"
+#include "trader\HSPricing.hpp"
 
 //scarCode Mods
 #include "scarCODE\global.hpp"
@@ -11,12 +13,10 @@
 //SafeZones SPKCode
 #include "SPKcode\config.cpp"
 
-//Black Market Traders
-#include "trader\tradedialog.hpp"
-#include "trader\HSPricing.hpp"
-
 //RscTiles Section
 class RscTitles
 	{
 	#include "addons\status_Bar\statusBar.hpp"
 	};
+//Main Game SandBox Settings
+#include "epoch_config\sandbox_config.hpp"

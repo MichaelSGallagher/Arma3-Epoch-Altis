@@ -29,7 +29,7 @@ _script = "addons\halv_spawn\credits.sqf";
 _halv_spawn_startmode = 1;
 
 //if false then gear select screen/button is disabled
-_halv_allowgearselect = true;
+_halv_allowgearselect = false;
 
 //if false, this disables adding gear, so no gear is added 
 //if gear select is disabled and this is false, no random gear is added to player on spawn
@@ -39,12 +39,12 @@ _addgear = false;
 //this is to clear all gear, before adding the new gear
 //best to keep this true, if you allow gear selection
 //if you do not allow gear selection, set this to false, or player will start with nothing
-_removedefault = true;
+_removedefault = false;
 
 //if true, it will always adds a map to the player on spawn (else player will not have a map, if not added to list)
-_addmap = true;
+_addmap = false;
 
 //////////////////////////paintshop settings//////////////////////////
 //if you do not have the paintshop on your server, just set it to false below
 //if true adds paintshop colours on spawn, if below var is set correct as in your paintshop settings
-_addcolours = false;
+_addcolours = true;

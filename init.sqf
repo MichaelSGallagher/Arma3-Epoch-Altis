@@ -1,7 +1,6 @@
 //Halo Script
 [] execVM "addons\halv_spawn\init.sqf";
-//Init UPSMON script
-call compile preprocessFileLineNumbers "scripts\Init_UPSMON.sqf";
+//BlackEagle AI Mission DebugClient
 [] execVM "debug\blckClient.sqf";
 //WAI Remote Messages
 [] execVM "remote\remote.sqf";
@@ -19,3 +18,5 @@ if (hasInterface) then {
 [] execVM "trader\HALV_takegive_crypto_init.sqf";
 [] execVM "trader\init.sqf";
 [] execVM "trader\resetvehicleammo.sqf";
+//Init UPSMON script
+call compile preprocessFileLineNumbers "scripts\Init_UPSMON.sqf";
