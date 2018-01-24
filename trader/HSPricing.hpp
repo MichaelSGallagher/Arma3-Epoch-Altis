@@ -32,6 +32,7 @@ class HSPricing
 	class ItemCampingLight {price = 250;};
 	class ItemSeedBag {price = 100;};
 	class KitCinderTower {price = 2500;};
+	
 	// Radios
 	class EpochRadio0 {price = 2;};
 	class EpochRadio1 {price = 4;};
